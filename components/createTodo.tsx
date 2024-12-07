@@ -19,7 +19,7 @@ const CreateTodoModal: React.FC<CreateTodoModalProps> = ({
     e.preventDefault();
     if (!title.trim()) return alert("Title is required");
 
-    addTodo(description, title, date);
+    addTodo( title, description, date);
 
     setTitle("");
     setDescription("");
