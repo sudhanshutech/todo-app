@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Donezo - The Ultimate To-Do App
 
-## Getting Started
+## Overview
+Donezo is a modern, user-friendly to-do app designed to help you stay organized, manage tasks efficiently, and boost your productivity. With a sleek interface and powerful features, Donezo is perfect for individuals and teams looking to stay on top of their daily tasks.
 
-First, run the development server:
+## Features
+- **Add and Manage Tasks**: Easily create, edit, and delete tasks.
+- **Progress Tracker**: Visualize your task completion.
+- **Responsive Design**: Fully responsive interface to use on any device.
 
+## Installation
+To get started with Donezo, follow these steps:
+
+### Prerequisites
+Ensure that you have [Node.js](https://nodejs.org/en/download/) installed on your system.
+
+### Clone the Repository
+```bash
+git clone https://github.com/yourusername/donezo.git
+cd donezo
+```
+### Install Dependencies
+```bash
+npm install
+```
+### Run developement server
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## Technologies used
+- Next.js: For the frontend framework.
+- React and Material UI: For building UI components.
+- TypeScript: For type safety and better code quality.
+- Tailwind CSS: For styling and responsive design.
+- Zustand: For state management
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Donezo — Get it done, the Donezo way!🚀
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
