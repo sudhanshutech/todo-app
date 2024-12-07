@@ -4,6 +4,7 @@ import AddTodoForm from "@/components/todoform";
 import TodoList from "@/components/todoList";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Image from "next/image";
 
 const Home = () => {
   const [startDate, setStartDate] = useState(
@@ -29,8 +30,16 @@ const Home = () => {
 
   return (
     <div className="flex flex-col items-center mx-auto min-h-screen">
-        <img src="/3d-image.png" alt="logo" style={{width: "120px", height: "120px", position: 'absolute'}}/>
-      <div className="p-6  max-w-4xl bg-gray-100 rounded-md shadow-md mt-20">
+      <Image
+        src="/3d-image.png"
+        alt="logo"
+        width={200}
+        height={200}
+        style={{
+          position: "absolute",
+        }}
+      />
+      <div className="p-6  max-w-4xl bg-gray-100 rounded-md shadow-md mt-36">
         <h1 className="text-2xl font-bold mb-4">To-Do List</h1>
 
         {/* Horizontal Calendar with Arrow Navigation */}
