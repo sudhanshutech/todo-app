@@ -8,9 +8,11 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      // Custom scrollbars for better UX
+      scrollbarHide: {
+        '::-webkit-scrollbar': { display: 'none' },
+        '-ms-overflow-style': 'none', // For IE and Edge
+        'scrollbar-width': 'none',   // For Firefox
       },
     },
   },
